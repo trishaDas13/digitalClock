@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playpen Sans', cursive;
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cotainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.times{
+    position: relative;
+}
+h1{
+    width: 100px;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+.times p{
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    padding: 4px;
+    width: 65px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(220, 20, 60);
+}
+button {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+button:active,
+button:hover,
+button:focus {
+  outline: 0;
+}
+
+
+button:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+button:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+button:active:hover,
+button:focus:hover,
+button:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+    margin: 2rem;
+}
+.ampm{
+    background-color: rgba(53, 220, 20, 0.63);
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 4.5rem;
+}
+
